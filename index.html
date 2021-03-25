@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Technical Documentation...</title>
+  </head>
+  <body>
+    <div class="container block">
+      <nav class="navbar" id="navbar">
+        <header class="navbar-title">HTML Documentation</header>
+        <ul class="index">
+          <li><a class="nav-link" href="#What_is_HTML?">What is HTML?</a></li>
+          <li><a class="nav-link" href="#HTML_Editors">HTML Editors</a></li>
+          <li><a class="nav-link" href="#HTML_Basic">HTML Basic</a></li>
+          <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+          <li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+        </ul>
+      </nav>
+      <main class="main-doc" id="main-doc">
+        <section class="main-section" id="What_is_HTML?">
+          <header>What is HTML?</header>
+          <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>
+              HTML elements label pieces of content such as "this is a heading",
+              "this is a paragraph", "this is a link", etc.
+            </li>
+          </ul>
+          <h3>Web Browsers:</h3>
+          <p>
+            The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to
+            read HTML documents and display them correctly. A browser does not
+            display the HTML tags, but uses them to determine how to display the
+            document:
+          </p>
+          <img src="https://www.w3schools.com/html/img_chrome.png" alt="" />
+          <h3>HTML History</h3>
+          <p>
+            Since the early days of the World Wide Web, there have been many
+            versions of HTML:
+          </p>
+          <table class="versions">
+            <tbody>
+              <tr>
+                <th>Year</th>
+                <th>Version</th>
+              </tr>
+              <tr>
+                <td>1989</td>
+                <td>Tim Berners-Lee invented www</td>
+              </tr>
+              <tr>
+                <td>1991</td>
+                <td>Tim Berners-Lee invented HTML</td>
+              </tr>
+              <tr>
+                <td>1993</td>
+                <td>Dave Raggett drafted HTML+</td>
+              </tr>
+              <tr>
+                <td>1995</td>
+                <td>HTML Working Group defined HTML 2.0</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>W3C Recommendation: HTML 3.2</td>
+              </tr>
+              <tr>
+                <td>Etc.</td>
+                <td>etc. etc.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="main-section" id="HTML_Editors">
+          <header>HTML Editors</header>
+          <p>A simple text editor is all you need to learn HTML.</p>
+          <h3>Learn HTML Using Notepad or TextEdit</h3>
+          <p>
+            Web pages can be created and modified by using professional HTML
+            editors. However, for learning HTML we recommend a simple text
+            editor like Notepad (PC) or TextEdit (Mac). We believe in that using
+            a simple text editor is a good way to learn HTML. Follow the steps
+            below to create your first web page with Notepad or TextEdit.
+          </p>
+          <h3>Step 1: Open Notepad (PC)</h3>
+          <p>
+            <strong>Windows 8 or later:</strong> Open the Start Screen (the
+            window symbol at the bottom left on your screen). Type Notepad.<br />
+            <strong>Windows 7 or earlier:</strong> Open Start > Programs >
+            Accessories > Notepad
+          </p>
+          <h3>Step 2: Write Some HTML</h3>
+          <p>Write or copy the following HTML code into Notepad:</p>
+          <img
+            src="https://www.w3schools.com/html/img_notepad.png"
+            alt="notepad"
+          />
+          <h3>Step 3: Save the HTML Page</h3>
+          <p>
+            Save the file on your computer. Select
+            <strong>File > Save as</strong> in the Notepad menu. Name the file
+            <strong>"index.htm"</strong> and set the encoding to
+            <strong>UTF-8</strong> (which is the preferred encoding for HTML
+            files).
+          </p>
+          <img
+            src="https://www.w3schools.com/html/img_saveas.png"
+            alt="save-as"
+          />
+          <div class="tip-block">
+            <p>
+              <strong>Tip:</strong>You can use either .htm or .html as file
+              extension. There is no difference, it is up to you.
+            </p>
+          </div>
+          <h3>Step 4: View the HTML Page in Your Browser</h3>
+          <p>
+            Open the saved HTML file in your favorite browser (double click on
+            the file, or right-click - and choose "Open with").<br />
+            The result will look much like this:
+          </p>
+          <img
+            src="https://www.w3schools.com/html/img_chrome.png"
+            alt="chrome"
+          />
+        </section>
+        <section class="main-section" id="HTML_Basic">
+          <header>HTML Basic</header>
+          <p>
+            In this chapter we will show some basic HTML examples. Don't worry
+            if we use tags you have not learned about yet.
+          </p>
+          <h3>HTML Documents</h3>
+          <p>
+            All HTML documents must start with a document type declaration:
+            <code><span><</span>!DOCTYPE html></code>.<br />
+            The HTML document itself begins with
+            <code><span><</span>html></code> and ends with <code><span><</span>/html></code>.<br />
+            The visible part of the HTML document is between <code><span><</span>body></code>
+            and <code><span><</span>/body></code>.
+          </p>
+          <h3>The <span><</span>!DOCTYPE> Declaration</h3>
+          <p>
+            The <span><</span>!DOCTYPE> declaration represents the document
+            type, and helps browsers to display web pages correctly.</p><p>It must
+            only appear once, at the top of the page (before any HTML tags).</p>
+						<p>The
+            <span><</span>!DOCTYPE> declaration is not case sensitive. The
+            <span><</span>!DOCTYPE> declaration for HTML5 is:</p>
+          </p>
+					<h3>HTML Headings</h3>
+					<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, tempore consequatur? Ut sint, laboriosam alias necessitatibus, eligendi vitae, molestias sequi corporis unde repudiandae consectetur doloribus facilis fugiat facere porro deserunt? Pariatur repudiandae optio quia dignissimos! Non iusto, expedita, enim quibusdam corrupti odit exercitationem, consequuntur earum sit eum provident sunt quo!</p>
+					<h3>HTML Paragraphs</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quaerat laudantium ratione. Consectetur nemo dicta porro tempora error nobis vel, repellendus earum, accusamus a autem ea id inventore quaerat magni!</p>
+        </section>
+        <section class="main-section" id="HTML_Elements">
+          <header>HTML Elements</header>
+					<p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+					<h3>HTML Elements</h3>
+					<p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+					<h4><span><</span>tagname>Content goes here... <span><</span>/tagname></h4>
+					<p>Examples of some HTML elements:</p>
+					<h4><span><</span>h1>My First Heading<span><</span>/h1></h4>
+					<h4><span><</span>p>My first paragraph.<span><</span>/p></h4>
+				</section>
+				<section class="main-section" id="HTML_Attributes">
+					<header>HTML Attributes</header>
+					<p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+					<h3>HTML Attributes</h3>
+					<ul>
+						<li>All HTML elements can have <strong>attributes</strong></li>
+						<li>Attributes provide <strong>additional information</strong> about elements</li>
+						<li>Attributes are always specified in <strong>the start tag</strong></li>
+						<li>Attributes usually come in name/value pairs like: <strong>name="value"</strong></li>
+					</ul>
+				</section>
+				<footer>Source: <a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com</a></footer>
+      </main>
+			
+    </div>
+  </body>
+</html>
